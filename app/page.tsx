@@ -1,4 +1,5 @@
-import VideoList from '../components/VideosList';
+import VideosList from '../components/VideosList';
+import AddVideo from '../components/AddVideo';
 
 export default function Home() {
   return (
@@ -7,7 +8,8 @@ export default function Home() {
         <div className='z-10 max-w-5xl w-full items-center justify-center font-mono text-sm lg:flex'>
           <h1 className='{`mb-3 text-3xl font-bold`}'>Video App</h1>
         </div>
-        <VideoList />
+        <AddVideo />
+        <VideosList />
       </main>
     </>
   );
